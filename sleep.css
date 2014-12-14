@@ -1,0 +1,370 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ACTUAL CODE STARTS HERE */
+
+* {
+	box-sizing: border-box;
+}
+.banner {
+	height: 670px;
+	width: 100%;
+	background-image: url(face.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 -40px;
+	text-align: right;
+	position: relative;
+	color: white;
+}
+.banner-text {
+	display: inline-block;
+	margin-right: 200px;
+	text-align: left;
+	font-family: 'Helvetica Neue';
+	font-weight: 100;
+}
+.zzz {
+	display: inline-block;
+	right: 545px;
+	top: 75px;
+	position: absolute;
+}
+.head {
+	font-size: 108px;
+	line-height: 127px;
+	margin-top: 150px;
+	margin-bottom: 35px;
+}
+#reg {
+	color: rgba(255, 255, 255, .33);
+	font-size: 31px;
+	line-height: 37px;
+	vertical-align: top;
+	position: absolute;
+}
+.runner-up {
+	font-size: 43px;
+	line-height: 50px;
+	margin-bottom: 70px;
+}
+.first-push {
+	width: 310px;
+	height: 67px;
+	font-size: 29px;
+	line-height: 34px;
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 16px 80px 16px 80px;
+	padding-bottom: 16px;
+	display: block;
+	-moz-transition: color 1s, border .1s, background .2s ease-in;
+    -o-transition: color 1s,  border .1s, background .2s ease-in;
+    -webkit-transition: color 1s, border 1s, background .2s ease-in;
+}
+.first-push:hover {
+	color: rgba(255, 255, 255, .4);
+	border: 1px solid rgba(255, 255, 255, .4);
+	background: rgba(255, 255, 255, .1);
+}
+.arrow {
+	width: 84px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 45px;
+}
+.arrow-top, .arrow-bottom {
+	display: block;
+	position: absolute;
+}
+.arrow-bottom {
+	top: 15px;
+}
+.all-else {
+	width: 760px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Helvetica Neue';
+	font-weight: 200;
+	font-size: 22px;
+}
+.tower {
+	padding-bottom: 150px;
+	border-bottom: 1px solid #979797;
+	color: #5C5C5C;
+}
+.stronger {
+	line-height: 44px;
+	font-family: 'Helvetica Neue';
+	font-weight: 100;
+	font-size: 38px;
+	color: #5C5C5C;
+	margin-top: 25px;
+	margin-bottom: 54px;
+}
+.more-strength {
+ 	padding-top: 40px;
+}
+.subs {
+	padding-top: 75px;
+	margin-bottom: 45px;
+}
+.line-first {
+	position: relative;
+}
+.pad {
+	position: relative;
+}
+.pair {
+	display: inline-block;
+	width: 248px;
+	height: 125px;
+	vertical-align: top;
+}
+.line-second {
+	padding-top: 120px;
+}
+.second {
+	text-align: left;
+	margin-bottom: 70px;
+}
+.caption {
+	margin-top: 20px;
+}
+.roll {
+	margin-top: 10px;
+}
+.psuedo {
+	position: relative;
+}
+.divider {
+	margin-top: -40px;
+	padding: 0 30px;
+	position: relative;
+	background: white;
+}
+.descript {
+	text-align: left;
+	color: #5C5C5C;
+	word-spacing: 3px;
+	line-height: 35px;
+	position: relative;
+}
+
+.reggie {
+	color: #5C5C5C;
+	font-size: 12px;
+	vertical-align: top;
+	position: absolute;
+}
+.pos-one {
+	left: 50px;
+	top: -12px;
+}
+.pos-two {
+	left: 54px;
+	top: -12px;
+}
+.pos-three {
+	left: 206px;
+	top: -4px;
+}
+.pos-four {
+	left: 50px;
+	top: -4px;
+}
+.holder {
+	position: relative;
+}
+.pos-five {
+	font-size: 16px;
+	right: 138px;
+	top: -13px;
+}
+.bold, .denom {
+	position: relative;
+}
+.bold {
+	font-size: 22px;
+	font-family: 'Helvetica Neue';
+	font-weight: 500;
+	line-height: 30px;
+	vertical-align: middle;
+	color: #5C5C5C;
+}
+.group {
+	position: relative;
+	text-align: left;
+	margin-top: 60px;
+	margin-bottom: 70px;
+}
+.last-of-group {
+	margin-bottom: 0px;
+}
+.text, .imagine {
+	display: inline-block;
+	color: #5C5C5C;
+}
+.text {
+	position: absolute;
+	top: 20px;
+	padding-left: 40px;
+}
+.line-pic {
+	text-align: center;
+	position: relative;
+	margin-bottom: 115px;
+}
+.cloud-moon {
+	position: absolute;
+	top: -30px;
+	left: 45%;
+	background: white;
+	padding: 0 12px;
+
+}
+.input {
+	height: 41px;
+	color: #979797;
+	border: 2px solid silver;
+	border-radius: 5px;
+	padding-left: 15px;
+	font-family: 'Helvetica Neue';
+	font-weight: 100;
+	font-size: 22px;
+	margin-right: 14px;
+	margin-bottom: 20px;
+}
+.same {
+	width: 486px;
+}
+.number {
+	width: 278px;
+}
+.month-year {
+	width: 93px;
+	padding-left: 13px;
+}
+.cvc-code {
+	width: 74px;
+	padding-left: 13px;
+}
+.align {
+	text-align: left;
+	padding-left: 131px;
+}
+.count-sheep {
+	width: 149px;
+	height: 41px;
+	border: 2px solid gray;
+	border-radius: 5px;
+	font-family: 'Helvetica Neue';
+	font-weight: 100;
+	background: none;
+	font-size: 22px;
+	color: black;
+	-moz-transition: color 1s, border .1s, background .2s ease-in;
+    -o-transition: color 1s,  border .1s, background .2s ease-in;
+    -webkit-transition: color 1s, border 1s, background .2s ease-in;
+}
+.count-sheep:hover {
+	color: white;
+	border: 2px solid maroon;
+	background: rgba(0, 0, 0, .7);
+}
+.image-holder {
+	text-align: center;
+	position: relative;
+}
+.last-icon {
+	position: absolute;
+	top: -30px;
+	left: 47.5%;
+	padding: 0 15px;
+	background: white;
+}
+
+.foot-name {
+	padding-top: 90px;
+	padding-bottom: 55px;
+	font-size: 22px;
+	font-family: 'Helvetica Neue';
+	font-weight: 100;
+	color: #B2B2B2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
